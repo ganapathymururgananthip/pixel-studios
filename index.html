@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PixelStudios</title>
+
+        <!-- Mobile specific metas -->
+        <meta charset="utf-8">
+        <meta name="title" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=5.0">
+        <meta name="generator" content="">
+
+        <!-- Bootstrap Plugins -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+        <!-- Font Awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Main stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Responsive stylesheet -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <!-- Favicon -->
+        <link rel="icon" href="assets/img/logo.png">
+
+        <style>
+
+        .bg-img-1{
+            background-image: url('assets/img/header_bg.png');
+            filter: brightness(80%);
+        }
+        .bg-img-2{
+            background-image: url('assets/img/header_bg1.png');
+            filter: brightness(80%);
+        }
+        #consulting .row .left_side_consulting{
+            background-image:url('assets/img/consulting_img1.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height:400px;
+            filter: brightness(120%);
+        }
+        #consulting .row .right_side_consulting{
+            background-image:url('assets/img/consulting_img2.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height:400px;
+            filter: brightness(120%);
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Industries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#consulting">Consulting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#insights">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;" data-toggle="modal" data-target="#searchbar">
+                            <i class="fa fa-search ml-5"></i>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <div class="carousel" data-ride="carousel" id="home">
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image bg-img-1 active">
+                        <div class="carousel-caption d-md-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6>Helping Organizations Improve their Efficiency and Performance.</h6>
+                                    <div class="know_more d-flex mt-4 ml-2">
+                                        <a href="#"></a>
+                                        <p>Know more</p>
+                                    </div>
+                                    <div class="text-left">
+                                        <span class="carousel_dot" onclick="currentSlide(1)"></span> 
+                                        <span class="carousel_dot carousel_dot_active" onclick="currentSlide(2)"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="carousel-item carousel-image bg-img-2">
+                    <div class="carousel-caption d-md-block">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>Enhancing Organizational Productivity and Streamlining Processes.
+                                </h6>
+                                <div class="know_more d-flex mt-4 ml-2">
+                                    <a href="#"></a>
+                                    <p>Know more</p>
+                                </div>
+                                <div class="text-left">
+                                    <span class="carousel_dot" onclick="currentSlide(1)"></span> 
+                                    <span class="carousel_dot" onclick="currentSlide(2)" style="width:30px;border-radius:20px;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about_us" class="tag">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center align-items-center main_row">
+                    <div class="col-lg-6 col-sm-12 left_side_about">
+                        <img src="assets/img/aboutus_img.png" alt="aboutus_img" width="50%">
+                        <img src="assets/img/aboutus_dot.png" alt="aboutus_dot" width="25%">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h6>We Will Help Your Business Grow</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 right_side_about">
+                        <h5>Tailored Consulting Services for Sustainable Growth & Success</h5>
+                        <p>With a team of experts and extensive experience, Pixel Studios helps various businesses, industries, start-ups, and businesses of all sizes with strategic consulting and result-driven solutions.</p>
+                        <h6>Industries We Serve:</h6>
+                        <div class="row mt-4">
+                            <div class="col-lg-5 col-sm-12 d-flex">
+                                <p>01.</p>
+                                <p>Consumer Goods</p>
+                            </div>
+                            <div class="col-lg-5 col-sm-12 d-flex">
+                                <p>02.</p>
+                                <p>Retail Market</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row mt-2">
+                            <div class="col-lg-5 col-sm-12 d-flex">
+                                <p>03.</p>
+                                <p>MSMEs & Start-ups</p>
+                            </div>
+                            <div class="col-lg-5 col-sm-12 d-flex">
+                                <p>04.</p>
+                                <p>Furniture Manufacturing </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row mt-2">
+                            <div class="col-lg-5 col-sm-12 d-flex">
+                                <p>05.</p>
+                                <p>FMCG Companies</p>
+                            </div>
+                            <div class="col-lg-5 col-sm-12 d-flex">
+                                <p>06.</p>
+                                <p>Fintech Firms</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row mt-2">
+                            <div class="col-lg-5 col-sm-12 d-flex">
+                                <p>07.</p>
+                                <p>Education & Skill Development</p>
+                            </div>
+                        </div>
+                        <div class="row ml-3 mt-1">
+                            <div class="know_more d-flex">
+                                <a href="#"></a>
+                                <p>Know more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="tag">
+            <h6 class="text-center">Expert Consulting Services for Driving Businesses Forward</h6>
+            <div class="container-fluid">
+                <div id="myCarousel" class="carousel slide mt-4" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item service_item">
+                            <div class="row">
+                                <div class="col-md-3 slider-item">
+                                    <img src="assets/img/service_img1.png" alt="sevice_img1">
+                                    <h6 style="bottom:50px;">Sales & Marketing</h6>
+                                    <div class="know_more d-flex ml-2">
+                                        <a href="#"></a>
+                                        <p>Know more</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 slider-item">
+                                    <img src="assets/img/service_img2.png" alt="sevice_img2">
+                                    <h6>Branding</h6>
+                                </div>
+                                <div class="col-md-3 slider-item">
+                                    <img src="assets/img/service_img3.png" alt="sevice_img3">
+                                    <h6>Operations</h6>
+                                </div>
+                                <div class="col-md-3 slider-item">
+                                    <img src="assets/img/service_img4.png" alt="sevice_img4">
+                                    <h6>Digital Strategy & Communication</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item service_item">
+                            <div class="row">
+                                <div class="col-md-3 slider-item">
+                                    <img src="assets/img/service_img5.png" alt="sevice_img5">
+                                </div>
+                                <div class="col-md-3 slider-item">
+                                    <img src="assets/img/service_img6.png" alt="sevice_img6">
+                                </div>
+                                <div class="col-md-3 slider-item">
+                                    <img src="assets/img/service_img7.png" alt="sevice_img7">
+                                </div>
+                                <div class="col-md-3 slider-item">
+                                    <img src="assets/img/service_img8.png" alt="sevice_img8">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div style="text-align:center">
+                <span class="dot" onclick="currentslide(1)"></span> 
+                <span class="dot" onclick="currentslide(2)"></span>
+            </div>
+
+        </section>
+
+        <section id="insights" class="tag">
+            <h5 class="text-center">Read Our Latest Insights</h5>
+            <div class="container-fluid">
+                <div class="row justify-content-around d-flex">
+                    <div class="col-sm-4">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card_header_content d-flex pl-4 pt-4">
+                                <p>Business Strategy</p>
+                                <p class="circle"></p>
+                                <p class="date1">06 Apr 2022</p>
+                            </div>
+                            <h6 class="pl-4 mb-3">Global Recession Watch: The Latest Data</h6>
+                            <img src="assets/img/insights_img1.png" class="card-img-top" alt="Image">
+                            <div class="card-body">
+                                <div class="know_more d-flex pl-4">
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card_header_content d-flex pl-4 pt-4">
+                                <p>Business Strategy</p>
+                                <p class="circle"></p>
+                                <p class="date1">04 Apr 2022</p>
+                            </div>
+                            <h6 class="pl-4 mb-3">Management Tools & Trends 2023</h6>
+                            <img src="assets/img/insights_img2.png" class="card-img-top mt-3" alt="Image">
+                            <div class="card-body">
+                                <div class="know_more d-flex pl-4">
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card_header_content d-flex pl-4 pt-4">
+                                <p>Retail</p>
+                                <p class="circle"></p>
+                                <p class="date1">06 Apr 2022</p>
+                            </div>
+                            <h6 class="pl-4 mb-3">How Engine 2 Expansion Can Power the Future of Retail</h6>
+                            <img src="assets/img/insights_img3.png" class="card-img-top" alt="Image">
+                            <div class="card-body">
+                                <div class="know_more d-flex pl-4">
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:;"><p class="text-center view_all_insights mt-3">View All Insights</p></a>
+            </div>
+        </section>
+
+        <section id="consulting" class="tag">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 left_side_consulting">
+                        <div class="row left_side_consulting_content_row">
+                            <div class="col-lg-6 col-sm-12">
+                                <h6 class="ml-5 pl-5">Build Your Future With Us</h6>
+                                <p class="ml-5 pl-5">Lorem ipsum dolor sit amet. Vel accusamus </p>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="know_more d-flex float-right mr-5">
+                                    <a href="#"></a>
+                                    <p>Apply Now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 right_side_consulting">
+                        <div class="row left_side_consulting_content_row">
+                            <div class="col-lg-6 col-sm-12">
+                                <h6 class="ml-5 pl-5">Want to Upscale Your Business?</h6>
+                                <p class="ml-5 pl-5">Lorem ipsum dolor sit amet. Vel accusamus </p>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="know_more d-flex float-right mr-5">
+                                    <a href="#"></a>
+                                    <p>Get In Touch</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="tag">
+            <div class="footer_content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6 footer_links">
+                            <a href="index.html"class="mt-2 ml-4"><img src="assets/img/logo.png" alt="logo"></a>
+                            <div class="footer_info">
+                                <div class="footer_info_row d-flex mt-5">
+                                    <i class="fa fa-map-marker mr-3 mt-1" aria-hidden="true"></i>
+                                    <p>Lorem ipsum dolor sit amet. Vel accusamus repudiandae eum soluta quos.</p>
+                                </div>
+                                <div class="footer_info_row d-flex mt-3">
+                                    <i class="fa fa-envelope-o mr-3 mt-1" aria-hidden="true"></i>
+                                    <p>info@website.com</p>
+                                </div>
+                                <div class="footer_info_row mt-3">
+                                    <div class="phone d-flex">
+                                        <i class="fa fa-phone mr-3 mt-1" aria-hidden="true"></i>
+                                        <p>+91 12345 67890</p>
+                                    </div>
+                                    <p class="mobile">+91 09876 54321</p>
+                                </div>
+                                <div class="social_media_icons">
+                                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-2 col-md-3 footer_links">
+                            <h4 class="mt-2">Quick Links</h4>
+                            <ul>
+                                <li><a href="javascript:;">Home</a></li>
+                                <li><a href="javascript:;">About Us</a></li>
+                                <li><a href="javascript:;">Blogs</a></li>
+                                <li><a href="javascript:;">Careers</a></li>
+                                <li><a href="javascript:;">Contact Us</a></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+        
+                        <div class="col-lg-3 col-md-3 footer_links">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="javascript:;">Sales & Marketing</a></li>
+                                <li><a href="javascript:;">Branding</a></li>
+                                <li><a href="javascript:;">Operations</a></li>
+                                <li><a href="javascript:;">Digital Strategy & Communication </a></li>
+                                <li><a href="javascript:;">B2B & B2C Market</a></li>
+                                <li><a href="javascript:;">Business Growth</a></li>
+                                <li><a href="javascript:;">Business Expansion</a></li>
+                                <li><a href="javascript:;">HR Solutions</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-lg-2 col-md-3 footer_links">
+                            <h4>Industries we Serve</h4>
+                            <ul>
+                                <li><a href="javascript:;">Consumer Goods</a></li>
+                                <li><a href="javascript:;">Retail Market</a></li>
+                                <li><a href="javascript:;">MSMEs & Start-ups</a></li>
+                                <li><a href="javascript:;">Furniture Manufacturing</a></li>
+                                <li><a href="javascript:;">Education & Skill Development</a></li>
+                                <li><a href="javascript:;">Fintech Firms</a></li>
+                                <li><a href="javascript:;">FMCG</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <section id="copy_right" class="tag">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>Copyright @ 2023 | All Rights Reserved. Designed By Pixel Studios</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="searchbar" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="border-bottom:1px solid #fff;">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="border:none;outline:none;">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Your email address" aria-describedby="basic-addon2" style="height:40px;">
+                            <div class="input-group-append">
+                              <button class="btn btn-primary" type="button" style="padding: 8px 30px;height
+                              :40px;background:#000;border:0;">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        
+        
+        <!-- Javascript files -->
+
+        <!-- Jquery file -->
+        <script src="assets/js/jquery.js"></script>
+        
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        
+        <script>
+            $(window).ready(function() {
+                $(window).scroll(function() {
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 300) {
+                        $(".navbar").css("background", "#000");
+                        $(".navbar").css("margin", "unset");
+                    } else {
+                        $(".navbar").css("background", "transparent");
+                    }
+                });
+                $('ul li a').click(function(){
+                    $('li a').removeClass("active");
+                    $(this).addClass("active");
+                });
+            });
+
+            let slideIndex = 1;
+            showSlides(slideIndex);
+        
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+        
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+        
+            function showSlides(n) {
+                let j;
+
+                let slides1 = document.getElementsByClassName("carousel-image");
+                let dots1 = document.getElementsByClassName("carousel_dot");
+                if (n > slides1.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides1.length}
+                for (j = 0; j < slides1.length; j++) {
+                    slides1[j].style.display = "none";  
+                }
+                for (j = 0; j < dots1.length; j++) {
+                    dots1[j].className = dots1[j].className.replace("carousel_dot_active", "");
+                }
+                slides1[slideIndex-1].style.display = "block";  
+                dots1[slideIndex-1].className += " carousel_dot_active";
+            }
+
+            let slideindex = 1;
+            showslides(slideindex);
+        
+            function plussides(m) {
+                showslides(slideindex += m);
+            }
+        
+            function currentslide(m) {
+                showslides(slideindex = m);
+            }
+        
+            function showslides(m) {
+                let i;
+                let slides = document.getElementsByClassName("service_item");
+                let dots = document.getElementsByClassName("dot");
+                if (m > slides.length) {slideindex = 1}    
+                if (m < 1) {slideindex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace("dot_active", "");
+                }
+                slides[slideindex-1].style.display = "block";  
+                dots[slideindex-1].className += " dot_active";
+            }
+
+            $(document).on("scroll",function(){
+                var pagetop = $(document).scrollTop();
+                var pagebottom = pagetop + $(window).height();
+                var tags = $('.tag');
+
+                for (var i=0 ;i<tags.length;i++){
+                    var tag = tags[i];
+
+                    if($(tag).position().top < pagebottom){
+                        $(tag).addClass('visible');
+                    }
+                    else{
+                        $(tag).removeClass('visible');
+                    }
+                }
+            });
+
+        </script>
+
+    </body>
+</html>

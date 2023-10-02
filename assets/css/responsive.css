@@ -1,0 +1,82 @@
+@media (min-width:576px) and (max-width:1500px){
+    #about_us .card .card-body h6{
+        font-size:20px;
+    }
+    #insights .row .card{
+        height:500px;
+    }
+}
+@media (min-width:319px) and (max-width:576px){
+    #about_us .card .card-body h6{
+        font-size:10px;
+    }
+    #insights .row .card{
+        height:unset !important;
+        margin-bottom:4%;
+    }
+    #consulting .row .col-lg-6 .left_side_consulting_content_row h6{
+        margin-left:15px !important;
+        padding-left:15px !important;
+    }
+    #consulting .row .col-lg-6 .left_side_consulting_content_row p{
+        margin-left:15px !important;
+        padding-left:15px !important;
+    }
+    .carousel-caption{
+        width:180% !important;
+    }
+}
+@media (min-width:319px) and (max-width:992px){
+    #about_us .right_side_about{
+        margin-top:7%;
+    }
+    #services .row .col-md-3 img{
+        width:100%;
+    }
+    #insights .row .card{
+        height:375px;
+    }
+    .footer_info .social_media_icons i{
+        margin-bottom:8%;
+    }
+    #consulting .container-fluid{
+        padding-left:15px !important;
+        padding-right:15px !important;
+    }
+    .carousel-caption{
+        width:120%;
+        bottom:-45px;
+    }
+    #about_us hr{
+        margin-right:unset !important;
+
+    }
+    #services .row .slider-item h6{
+        left:20px !important;
+        font-size:15px;
+    }
+    #services .know_more{
+        left:20px !important;
+    }
+    nav .fa-search{
+        margin-left:unset !important;
+    }
+}
+@media (min-width:1600px) and (max-width:3000px){
+    #services .row .col-md-3 img{
+        width:100%;
+    }
+    #insights .row .card{
+        height:650px;
+    }
+}
+@media (min-width:576px) and (max-width:769px){
+    #insights .row .card .card_header_content{
+        padding-left:5px !important;
+    }
+}
+@media (min-width:319px) and (max-width:769px){
+    .footer_first_col{
+        justify-content:unset !important;
+    }
+}

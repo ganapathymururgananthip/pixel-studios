@@ -1,0 +1,488 @@
+/* Common CSS starts */
+
+a:hover{text-decoration:none;}
+body {
+  background: #F5F5F5;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+a {
+  transition: all 0.3s ease-in-out;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:focus {
+  outline: 0;
+}
+.dropdown-toggle::after{
+  content: unset;
+}
+.active{
+  color:#FF4B53 !important;
+}
+.fa-bars{
+  color: #fff;
+}
+.tag{
+  opacity:0;
+  transform:translate(0,10vh);
+  transition:all 1s;
+}
+.tag.visible{
+  opacity:1;
+  transform:translate(0,0);
+}
+.carousel-caption{
+  bottom:-20px;
+}
+
+/* Common CSS ends */
+
+/* Header CSS starts */
+
+nav{
+  border-bottom:1px solid #fff;
+  margin:1% 12%;
+}
+nav h6{
+  color:#fff;
+}
+.carousel-image{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nav-item{
+  margin-right:30px;
+}
+.nav-item a{
+  color:#fff;
+  font-size:16px;
+  font-weight:400;
+}
+.nav-link:hover{
+  color:#FF4B53;
+}
+.carousel-caption .card{
+  max-width:50%;
+  background: hsla(0, 0%, 16%, 0.8);
+}
+.carousel-caption .card h6{
+  color:#fff;
+  font-size:32px;
+  font-weight:500;
+  text-align:left;
+}
+.know_more a {
+  background: transparent;
+  border:1px solid #fff;
+  text-decoration:none;
+  border-radius: 50%;
+  display: block;
+  height:25px;
+  width:25px;
+  transform: rotate(90deg);
+}
+.know_more a::after {
+  content:"\2191";
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size:30px;
+  text-align: center;
+  padding-top:0px;
+}
+.know_more p{
+  padding-left:15px;
+  color:#fff;
+  font-size:16px;
+  font-weight:500;
+}
+.carousel_dot {
+  cursor: pointer;
+  height: 15px;
+  width:15px;
+  margin:20px 2px;
+  background: hsla(0, 0%, 100%, 0.6);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom:2%;
+}
+.carousel_dot_active{
+  width:30px !important;
+  border-radius: 20px;
+}
+.carousel_dot_active, .carousel_dot:hover {
+  background-color: #fff;
+}
+
+/* Header CSS ends */
+
+/* About us CSS starts */
+
+#about_us{
+  background-color: #fff;
+}
+#about_us .main_row{
+  padding:5% 10%;
+}
+#about_us hr{
+  margin-right:25%;
+  border-bottom:2px solid rgba(165, 166, 170, 0.6);
+}
+#about_us .row .left_side_about{
+  position:relative;
+}
+#about_us .card{  
+  max-width:50%;
+  position: absolute;
+  bottom:0;
+  right:20%;
+  border:none;
+  background-color:#C72027;
+}
+#about_us .card .card-body h6{
+  color:#fff;
+  font-size:32px;
+  font-weight:500;
+}
+#about_us .row .right_side_about .col-lg-6 i{
+  font-size:20px;
+}
+#about_us .row .right_side_about h5{
+  color:#000;
+  font-size:32px;
+  font-weight:600;
+}
+#about_us .row .right_side_about p{
+  color:#000;
+  margin-top:1%;
+}
+#about_us .row .right_side_about h6{
+  color:#000;
+  font-size:24px;
+  font-weight:500;
+  margin-top:2%;
+}
+#about_us .row .right_side_about .row .col-lg-5 p:nth-child(1){
+  color:rgba(165, 166, 170, 0.5);
+  margin-right:10px;
+}
+#about_us .row .right_side_about .row .col-lg-5 p{
+  color:#000;
+  font-size:17px;
+  font-weight:400;
+}
+#about_us .know_more a{
+  background: transparent;
+  border:1px solid #C72027;
+  text-decoration:none;
+  border-radius: 50%;
+  display: block;
+  height:24px;
+  width:24px;
+  transform: rotate(90deg);
+  margin-right:10px;
+}
+#about_us .know_more a::after {
+  content:"\2191";
+  display: block;
+  color: #C72027;
+  font-weight: bold;
+  font-size:26px;
+  text-align: center;
+}
+#about_us .know_more p{
+  color:#C72027 !important;
+}
+
+/* About us CSS ends */
+
+/* Services CSS starts */
+
+#services{
+  margin-top:2%;
+}
+#services h6{
+  color: #000;
+  font-size:32px;
+  font-weight:500;
+  margin:0 auto;
+  display:block;
+  width:50%;
+}
+#services .container-fluid{
+  padding-left: unset !important;
+  padding-right:unset !important;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width:15px;
+  margin:20px 2px;
+  background: hsla(357, 72%, 45%, 0.6);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom:2%;
+}
+.dot_active{
+  width:30px;
+  border-radius: 20px;
+}
+.dot_active, .dot:hover {
+  background-color: #C72027;
+}
+#services img{
+  filter:brightness(80%);
+}
+#services .row .slider-item h6{
+  position:absolute;
+  bottom:30px;
+  color:#fff;
+  left:50px;
+  font-size:25px;
+  font-weight:600;
+}
+#services .know_more{
+  position:absolute;
+  bottom:0;
+  color:#fff;
+  left:50px;
+}
+#services .know_more a {
+  background: transparent;
+  border:1px solid #fff;
+  text-decoration:none;
+  border-radius: 50%;
+  display: block;
+  height:25px;
+  width:25px;
+  transform: rotate(90deg);
+}
+#services.know_more a::after {
+  content:"\2191";
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size:30px;
+  text-align: center;
+  padding-top:0px;
+}
+#services .know_more p{
+  padding-left:15px;
+  color:#fff;
+}
+
+/* Services CSS ends */
+
+/* Insights CSS starts */
+
+#insights{
+  background-color: #fff;
+}
+#insights h5{
+  color: #000;
+  font-size:28px;
+  font-weight:600;
+  padding-top:2.5%;
+}
+#insights .row{
+  margin:3%;
+}
+#insights .row .card .card_header_content p{
+  text-transform: uppercase;
+  color:#A5A6AA;
+}
+#insights .row .card .card_header_content .date1{
+  color:#A5A6AA;
+}
+#insights .row .card .card_header_content .circle{
+  height:5px;
+  width:5px;
+  background-color: #C72027;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+}
+#insights .row .card h6{
+  color:#000;
+  font-size:20px;
+  font-weight:600;
+}
+#insights .row .card .card-body .know_more a{
+  background: transparent;
+  border:1px solid #C72027;
+  text-decoration:none;
+  border-radius: 50%;
+  display: block;
+  height:24px;
+  width:24px;
+  transform: rotate(90deg);
+  margin-right:10px;
+}
+#insights .row .card .card-body .know_more a::after {
+  content:"\2191";
+  display: block;
+  color: #C72027;
+  font-weight: bold;
+  font-size:26px;
+  text-align: center;
+}
+#insights .view_all_insights{
+  color:#C72027;
+  font-size:16px;
+  font-weight:500;
+  cursor: pointer;
+  padding-bottom:2%;
+}
+
+/* Insights CSS ends */
+
+/* Consulting CSS starts */
+
+#consulting{
+  background-color:#fff;
+  margin-top:-1%;
+}
+#consulting .container-fluid{
+  padding-left:unset !important;
+  padding-right:unset !important;
+}
+#consulting .row .col-lg-6{
+  padding-left:unset !important;
+  padding-right:unset !important;
+}
+#consulting .row .left_side_consulting , .right_side_consulting{
+  position: relative;
+  display: inline-block;
+}
+#consulting .row .left_side_consulting::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.7) 90%, #000000 100%);
+  z-index: 1;
+}
+#consulting .row .right_side_consulting::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(199, 32, 39, 0.1) 0%, rgba(199, 32, 39, 0.7) 95%, #C72027 100%);
+  z-index: 1;
+}
+#consulting .row .col-lg-6 .left_side_consulting_content_row{
+  margin-top:25%;
+}
+#consulting .row .col-lg-6 .left_side_consulting_content_row h6{
+  color:#fff;
+  font-size:24px;
+  font-weight:600;
+}
+#consulting .row .col-lg-6 .left_side_consulting_content_row p{
+  color:#fff;
+  font-size:20px;
+  font-weight:400;
+}
+#consulting .row .col-lg-6 .left_side_consulting_content_row .know_more a{
+  background: transparent;
+  border:1px solid #fff;
+  text-decoration:none;
+  border-radius: 50%;
+  display: block;
+  height:22px;
+  width:22px;
+  transform: rotate(90deg);
+  margin-right:10px;
+  margin-top:8px;
+}
+#insights .row .col-lg-6 .left_side_consulting_content_row .know_more a::after {
+  content:"\2191";
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size:25px;
+  text-align: center;
+}
+
+/* Consulting CSS ends */
+
+/* Footer CSS starts */
+
+#footer{
+  padding:3% 0;
+  background-color: #303030;
+}
+#footer i{
+  color:#fff;
+  font-size:20px;
+}
+.footer_content{
+  margin:0 7%;
+}
+.footer_info p{
+  color:#fff;
+  width:70%;
+}
+.footer_info .footer_info_row .mobile{
+  padding-left:6%;
+}
+.footer_info .social_media_icons i{
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-right:10px;
+}
+.footer_links h4{
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+}
+.footer_links ul{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+.footer_links ul li{
+  padding:15px 0 0 0;
+}
+.footer_links ul li a{
+  color:#fff;
+  font-size:14px;
+  font-weight:400;
+}
+.copy_right p{
+  color:#fff;
+}
+
+/* Footer CSS ends */
+
+/* Copyright CSS starts */
+
+#copy_right{
+  background-color: #C72027;
+}
+#copy_right .row .col-lg-12 p{
+  color:#fff;
+  font-size:15px;
+  font-weight:500;
+  margin-top:2%;
+}
+
+/* Copyright CSS ends */
